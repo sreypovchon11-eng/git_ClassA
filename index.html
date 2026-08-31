@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="kmcSOz9-gp-ZRLf4UAbALduuiUjknvmgYdWf1MYD2Ws"/>
+<title>Sreypov Chon — IT Student & Creative Developer</title>
+<meta name="description" content="Portfolio of Sreypov Chon, IT student, web designer and creative developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav-wrap">
+  <nav class="nav container">
+    <a href="#home" class="logo">sreypov<span class="dot">.</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" data-nav>Home</a></li>
+      <li><a href="#about" class="nav-link" data-nav>About</a></li>
+      <li><a href="#experience" class="nav-link" data-nav>Experience</a></li>
+      <li><a href="#skills" class="nav-link" data-nav>Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-nav>Projects</a></li>
+      <li><a href="#journey" class="nav-link" data-nav>Journey</a></li>
+      <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+    </ul>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-glow hero-glow-a"></div>
+    <div class="hero-glow hero-glow-b"></div>
+
+    <div class="container hero-grid">
+
+      <div class="hero-copy" data-reveal>
+        <span class="badge">
+          <span class="badge-dot"></span>
+          Available for learning &amp; opportunities
+        </span>
+
+        <p class="eyebrow-line">Hi, I'm</p>
+
+        <h1 class="hero-name">
+          <span class="outline-text">sreypov</span>
+          <span class="solid-text">chon</span>
+        </h1>
+
+        <p class="hero-role">IT Student &nbsp;•&nbsp; Web Designer &nbsp;•&nbsp; Creative Developer</p>
+
+        <p class="hero-desc">
+          I love turning ideas into modern digital experiences through design, code, and creativity.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            View My Work
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-num">3+</span>
+            <span class="hero-stat-label">Years learning to build</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">8</span>
+            <span class="hero-stat-label">Tools &amp; languages</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">2</span>
+            <span class="hero-stat-label">Concept projects shipped</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="profile-card">
+          <div class="profile-card-glow"></div>
+          <div class="profile-photo">
+            <img src="assets/profile.png" alt="Portrait of Sreypov Chon">
+          </div>
+          <div class="profile-card-footer">
+            <p class="pcf-name">Sreypov Chon</p>
+            <p class="pcf-role">Creative Developer</p>
+          </div>
+        </div>
+
+        <div class="float-card float-card-1">
+          <span class="float-card-icon">🎓</span>
+          <div>
+            <p class="fc-title">IT Student</p>
+            <p class="fc-sub">Studying Information Technology</p>
+          </div>
+        </div>
+
+        <div class="float-card float-card-2">
+          <span class="float-card-icon">💡</span>
+          <div>
+            <p class="fc-title">UI / UX Focus</p>
+            <p class="fc-sub">Designing with purpose</p>
+          </div>
+        </div>
+
+        <div class="float-card float-card-3">
+          <span class="float-card-icon">⚡</span>
+          <div>
+            <p class="fc-title">Fast Learner</p>
+            <p class="fc-sub">Curious about everything new</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-tag">About</p>
+      <h2 class="section-title">A little about me</h2>
+
+      <div class="about-grid">
+        <div class="about-text" data-reveal>
+          <p>
+            I'm Sreypov Chon, an IT student who enjoys the moment an idea on paper turns into
+            something people can actually click, scroll, and use. I split my time between
+            studying computer fundamentals and building small web projects that solve real
+            problems for the people around me.
+          </p>
+          <p>
+            What draws me to this field is the mix of logic and creativity — one day I'm
+            structuring a database, the next I'm choosing a color palette. I'm still early in
+            my journey, but every project teaches me something I didn't know I needed.
+          </p>
+        </div>
+
+        <div class="about-cards" data-reveal>
+          <div class="glass-card about-card">
+            <div class="about-card-icon">🎓</div>
+            <h3>Education</h3>
+            <p>Studying Information Technology, focused on web development and software fundamentals.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="about-card-icon">🌱</div>
+            <h3>Interests</h3>
+            <p>UI/UX design, front-end development, accessibility-driven concepts, and visual storytelling.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="about-card-icon">🎯</div>
+            <h3>Goal</h3>
+            <p>To grow into a well-rounded developer who designs and builds thoughtful digital products.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="section-tag">Experience</p>
+      <h2 class="section-title">Where I've grown</h2>
+
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <span class="timeline-year">2024 — Present</span>
+            <h3>Web Design Learner</h3>
+            <p class="timeline-org">Self-directed &amp; classroom projects</p>
+            <p>Building small websites and interface concepts to practice layout, responsiveness, and clean code structure.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <span class="timeline-year">2023 — 2024</span>
+            <h3>IT Fundamentals</h3>
+            <p class="timeline-org">Institute of Technology</p>
+            <p>Studied programming basics, databases, and networking, while exploring design tools like Figma.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <span class="timeline-year">2022</span>
+            <h3>First Steps in Tech</h3>
+            <p class="timeline-org">High School</p>
+            <p>Discovered a genuine interest in computers, design, and how digital products are put together.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="section-tag">Skills</p>
+      <h2 class="section-title">What I work with</h2>
+
+      <div class="skills-grid">
+
+        <div class="glass-card skill-card" data-reveal>
+          <div class="skill-top">
+            <span class="skill-name">HTML</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+        </div>
+
+        <div class="glass-card skill-card" data-reveal>
+          <div class="skill-top">
+            <span class="skill-name">CSS</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+        </div>
+
+        <div class="glass-card skill-card" data-reveal>
+          <div class="skill-top">
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+        </div>
+
+        <div class="glass-card skill-card" data-reveal>
+          <div class="skill-top">
+            <span class="skill-name">Bootstrap</span>
+            <span class="skill-percent">75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+        </div>
+
+        <div class="glass-card skill-card" data-reveal>
+          <div class="skill-top">
+            <span class="skill-name">Git</span>
+            <span class="skill-percent">65%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div>
+        </div>
+
+        <div class="glass-card skill-card" data-reveal>
+          <div class="skill-top">
+            <span class="skill-name">GitHub</span>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+        </div>
+
+        <div class="glass-card skill-card" data-reveal>
+          <div class="skill-top">
+            <span class="skill-name">Figma</span>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+        </div>
+
+        <div class="glass-card skill-card" data-reveal>
+          <div class="skill-top">
+            <span class="skill-name">UI/UX Design</span>
+            <span class="skill-percent">78%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-tag">Projects</p>
+      <h2 class="section-title">Selected work</h2>
+
+      <div class="projects-grid">
+
+        <article class="glass-card project-card" data-reveal>
+          <div class="project-media">
+            <div class="project-media-placeholder">🦯</div>
+            <span class="project-number">01</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Accessibility</span>
+            <h3>Smart Cane</h3>
+            <p>A smart cane concept designed to help visually impaired people detect obstacles and travel more independently.</p>
+            <div class="tag-row">
+              <span class="tag">Concept Design</span>
+              <span class="tag">Figma</span>
+              <span class="tag">UX Research</span>
+            </div>
+            <a href="#" class="project-link">
+              View Project
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="glass-card project-card" data-reveal>
+          <div class="project-media">
+            <div class="project-media-placeholder">🗂️</div>
+            <span class="project-number">02</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Web Application</span>
+            <h3>Student Management</h3>
+            <p>A simple management system for organizing students, scores, subjects, and information.</p>
+            <div class="tag-row">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="#" class="project-link">
+              View Project
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== JOURNEY ===== -->
+  <section class="section" id="journey">
+    <div class="container">
+      <p class="section-tag">Journey</p>
+      <h2 class="section-title">How I got here</h2>
+
+      <div class="journey">
+        <div class="journey-line"></div>
+
+        <div class="journey-item" data-reveal>
+          <span class="journey-year">2021</span>
+          <div class="glass-card journey-card">
+            <h3>Curiosity sparked</h3>
+            <p>Started exploring computers beyond schoolwork — games, design apps, and how websites are built.</p>
+          </div>
+        </div>
+
+        <div class="journey-item" data-reveal>
+          <span class="journey-year">2022</span>
+          <div class="glass-card journey-card">
+            <h3>Chose the IT path</h3>
+            <p>Decided to pursue Information Technology, drawn to both the logic and the visual side of the field.</p>
+          </div>
+        </div>
+
+        <div class="journey-item" data-reveal>
+          <span class="journey-year">2023</span>
+          <div class="glass-card journey-card">
+            <h3>Learned to design</h3>
+            <p>Picked up Figma and UI/UX principles, and started sketching interfaces before building them.</p>
+          </div>
+        </div>
+
+        <div class="journey-item" data-reveal>
+          <span class="journey-year">2024</span>
+          <div class="glass-card journey-card">
+            <h3>Built first real projects</h3>
+            <p>Combined design and code to build concept projects like Smart Cane and Student Management.</p>
+          </div>
+        </div>
+
+        <div class="journey-item" data-reveal>
+          <span class="journey-year">Now</span>
+          <div class="glass-card journey-card">
+            <h3>Looking ahead</h3>
+            <p>Continuing to sharpen my skills and looking for opportunities to learn from real-world work.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section-tag">Contact</p>
+      <h2 class="section-title">Let's work together</h2>
+
+      <div class="contact-grid">
+
+        <div class="contact-info" data-reveal>
+          <p class="contact-lead">
+            Have a project in mind, or just want to say hi? My inbox is always open.
+          </p>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">✉️</span>
+            <div>
+              <p class="cd-label">Email</p>
+              <p class="cd-value">sreypov.chon@example.com</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">📍</span>
+            <div>
+              <p class="cd-label">Location</p>
+              <p class="cd-value">Phnom Penh, Cambodia</p>
+            </div>
+          </div>
+
+          <div class="social-row">
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Telegram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.6 20c-.2 1.1-.9 1.4-1.9.9l-5.2-3.8-2.5 2.4c-.3.3-.5.5-1 .5l.4-5.3L18 6.4c.4-.4-.1-.6-.6-.2L7.5 13l-5.2-1.6c-1.1-.3-1.1-1.1.2-1.6L20.5 3c.9-.4 1.7.2 1.4 1.6z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-1-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.3-.3-4.6-1.1-4.6-5a4 4 0 0 1 1.1-2.7c-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 3 1a10.3 10.3 0 0 1 5.4 0c2.1-1.3 3-1 3-1 .6 1.4.2 2.4.1 2.7a4 4 0 0 1 1.1 2.7c0 3.9-2.3 4.7-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-4V9z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="glass-card contact-form" data-reveal id="contactForm">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">
+            Send Message
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="logo">sreypov<span class="dot">.</span></a>
+      <p class="footer-desc">IT student and creative developer, turning ideas into modern digital experiences.</p>
+    </div>
+
+    <div class="social-row">
+      <a href="#" class="social-icon" aria-label="Facebook">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+      </a>
+      <a href="#" class="social-icon" aria-label="Telegram">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.6 20c-.2 1.1-.9 1.4-1.9.9l-5.2-3.8-2.5 2.4c-.3.3-.5.5-1 .5l.4-5.3L18 6.4c.4-.4-.1-.6-.6-.2L7.5 13l-5.2-1.6c-1.1-.3-1.1-1.1.2-1.6L20.5 3c.9-.4 1.7.2 1.4 1.6z"/></svg>
+      </a>
+      <a href="#" class="social-icon" aria-label="GitHub">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-1-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.3-.3-4.6-1.1-4.6-5a4 4 0 0 1 1.1-2.7c-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 3 1a10.3 10.3 0 0 1 5.4 0c2.1-1.3 3-1 3-1 .6 1.4.2 2.4.1 2.7a4 4 0 0 1 1.1 2.7c0 3.9-2.3 4.7-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+      </a>
+      <a href="#" class="social-icon" aria-label="LinkedIn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-4V9z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <p class="footer-copy">© 2026 Sreypov Chon. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+/* ==========================================================
+   sreypov. — interactions
+   ========================================================== */
+
+(function () {
+  "use strict";
+
+  /* ---------- Theme toggle ---------- */
+  const root = document.documentElement;
+  const themeToggle = document.getElementById("themeToggle");
+  const THEME_KEY = "sreypov-theme";
+
+  function applyTheme(theme) {
+    if (theme === "light") {
+      root.setAttribute("data-theme", "light");
+    } else {
+      root.removeAttribute("data-theme");
+    }
+  }
+
+  let storedTheme = null;
+  try { storedTheme = localStorage.getItem(THEME_KEY); } catch (e) { /* storage unavailable */ }
+
+  const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+  applyTheme(storedTheme || (prefersLight ? "light" : "dark"));
+
+  themeToggle.addEventListener("click", function () {
+    const isLight = root.getAttribute("data-theme") === "light";
+    const next = isLight ? "dark" : "light";
+    applyTheme(next);
+    try { localStorage.setItem(THEME_KEY, next); } catch (e) { /* storage unavailable */ }
+  });
+
+  /* ---------- Mobile nav ---------- */
+  const navToggle = document.getElementById("navToggle");
+  const navLinks = document.getElementById("navLinks");
+
+  function closeNav() {
+    navToggle.classList.remove("open");
+    navLinks.classList.remove("open");
+    navToggle.setAttribute("aria-expanded", "false");
+  }
+
+  navToggle.addEventListener("click", function () {
+    const isOpen = navLinks.classList.toggle("open");
+    navToggle.classList.toggle("open", isOpen);
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  document.querySelectorAll("[data-nav]").forEach(function (link) {
+    link.addEventListener("click", closeNav);
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!navLinks.classList.contains("open")) return;
+    if (navLinks.contains(e.target) || navToggle.contains(e.target)) return;
+    closeNav();
+  });
+
+  /* ---------- Smooth scroll (with fixed-nav offset) ---------- */
+  const navEl = document.querySelector(".nav-wrap");
+
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener("click", function (e) {
+      const targetId = this.getAttribute("href");
+      if (targetId.length <= 1) return;
+      const target = document.querySelector(targetId);
+      if (!target) return;
+      e.preventDefault();
+      const navHeight = navEl ? navEl.offsetHeight : 0;
+      const top = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+      window.scrollTo({ top: top, behavior: "smooth" });
+    });
+  });
+
+  /* ---------- Scroll-spy: highlight active nav link ---------- */
+  const sections = Array.from(document.querySelectorAll("main section[id]"));
+  const navItems = Array.from(document.querySelectorAll(".nav-link"));
+
+  function updateActiveNav() {
+    const navHeight = navEl ? navEl.offsetHeight : 0;
+    const scrollPos = window.scrollY + navHeight + 40;
+    let currentId = sections.length ? sections[0].id : null;
+
+    sections.forEach(function (section) {
+      if (scrollPos >= section.offsetTop) {
+        currentId = section.id;
+      }
+    });
+
+    navItems.forEach(function (link) {
+      const isActive = link.getAttribute("href") === "#" + currentId;
+      link.classList.toggle("active", isActive);
+    });
+  }
+
+  window.addEventListener("scroll", updateActiveNav, { passive: true });
+  updateActiveNav();
+
+  /* ---------- Scroll reveal ---------- */
+  const revealEls = document.querySelectorAll("[data-reveal]");
+  const skillFills = document.querySelectorAll(".skill-fill");
+
+  const revealObserver = new IntersectionObserver(function (entries, obs) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in-view");
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: "0px 0px -60px 0px" });
+
+  revealEls.forEach(function (el) { revealObserver.observe(el); });
+
+  const skillObserver = new IntersectionObserver(function (entries, obs) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in-view");
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  skillFills.forEach(function (el) { skillObserver.observe(el); });
+
+  /* ---------- Cursor glow (desktop only, respects reduced motion) ---------- */
+  const cursorGlow = document.getElementById("cursorGlow");
+  const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const isTouch = window.matchMedia && window.matchMedia("(hover: none)").matches;
+
+  if (cursorGlow && !reduceMotion && !isTouch) {
+    window.addEventListener("mousemove", function (e) {
+      cursorGlow.style.transform = "translate(" + e.clientX + "px," + e.clientY + "px)";
+      cursorGlow.style.opacity = "1";
+    });
+    document.addEventListener("mouseleave", function () {
+      cursorGlow.style.opacity = "0";
+    });
+  } else if (cursorGlow) {
+    cursorGlow.style.display = "none";
+  }
+
+  /* ---------- Contact form (front-end only demo) ---------- */
+  const form = document.getElementById("contactForm");
+  const status = document.getElementById("formStatus");
+
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const name = form.name.value.trim();
+
+      if (!form.checkValidity()) {
+        status.textContent = "Please fill in all fields with a valid email.";
+        status.style.color = "#ff8a8a";
+        return;
+      }
+
+      status.style.color = "";
+      status.textContent = "Thanks" + (name ? ", " + name : "") + "! Your message has been noted — I'll get back to you soon.";
+      form.reset();
+    });
+  }
+})();
+
+</script>
+</body>
+</html>
